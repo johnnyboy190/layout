@@ -1,0 +1,141 @@
+body{
+    background-color: #8d975469;
+}
+#logo{
+    position:absolute;
+    top: 5px;
+    left: 20px;
+    height: 70px;
+    width: 110px;
+    border: solid 2px #8d975469;
+    border-radius: 100px ;
+}
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h2{
+    text-align: left;
+    margin-bottom: 4px;
+    font-family:cursive;
+    background-color:#8d975469;
+    
+}
+.center{
+    text-align: center;
+    font-family:cursive;
+    background-color:#8d975469;
+}
+
+h4{
+    border-bottom: 1px solid black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.ex{
+    position: absolute;
+    left: 300px;
+    bottom: 340px;
+    text-align: center;
+}
+
+.ex a{
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+}
+
+.ex a:hover{
+    color: white;
+    transform: scale(2);
+    rotate: 360deg;
+}
+
+.gall{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 60px 50px 80px 80px;
+}
+
+.gall img{
+    border: 3px black solid;
+    border-radius: 20px;
+}
+
+
+.fish_h1{
+    font-weight: lighter;
+}
+
+.pics{
+    border: solid black 2px;
+    border-radius: 20px;
+}
+
+.vids{
+    border-radius: 20px;
+}
+
+hr{
+    border: solid black 0.5px;
+}
+
+
+
+/*Table*/
+table, th{
+    border: 1px solid black;
+}
+td{
+    border-bottom: 1px solid black ;
+    border-left: 1px solid black;
+}
+
+
+
+#car_margin{
+    margin: 0px 290px 0px 285px;
+    
+}
+
+
+.hirch{
+    margin-right:200px ;
+}
+
+
+
+li{
+    font-size: 20px;
+    list-style-type:decimal;
+}
+
+
+aside{
+    float: right;
+    width: 20%;
+    background-image: url(/media/gradient.png);
+    /* border-left:thin solid black ; */
+    background-repeat:no-repeat;
+    
+}
+
+.side{
+    float: left;
+    width: 20%;
+    
+    /* border-left:thin solid black ; */
+    background-repeat:no-repeat;
+}
